@@ -1,4 +1,4 @@
-<!-- index.html -->
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +20,7 @@
     
 <div class="bt1">
   <button><i class="fa-brands fa-facebook" ></i></button>
-  <button><i class="fa-brands fa-twitter"></i></button>
+  <button><i class="fa-brands fa-twitter"></i></button> 
   <button><i class="fa-brands fa-linkedin"></i></button>
   <button><i class="fa-brands fa-square-instagram fa-1xl"></i></button>
 </div>
@@ -39,8 +39,8 @@
 </style>
      <br><br>
       <nav class="navbar">
-        <a href= "info@company.com">📧 info@company.com</a>
-        <a href="https://maps.app.goo.gl/aDTdxe6qcq7jYKRs6">📍 Sunny Isles Beach, FL 33160</a>
+               <a href= "info@company.com"> info@company.com</a>
+        <a href="https://maps.app.goo.gl/aDTdxe6qcq7jYKRs6"> Sunny Isles Beach, FL 33160</a>
 
       </nav>
     
@@ -49,31 +49,55 @@
             box-sizing: border-box;
             border-bottom:solid;
             border-bottom-width: 2px;
-            border-bottom-color: rgb(238, 229, 229) ;
-        
-
+            border-bottom-color: rgb(238, 229, 229);
             width: 100%;
             position:fixed ;
             margin-top: -30px;
-            text-decoration: none;
             padding: 20px;
             font-family: sans-serif;
             z-index: 1;
-            
-
-            
-            
-        }
-    </style>
+             }
+</style>
+<style>
+    .navbar>a{
+        text-decoration: none;
+        font-weight: 100px;
+        font-size: 20px;
+        padding: 30px;
+        
+    }
+</style>
     <br><br><br><br><br>
+    <div class="mail-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></div>
+       <style>
+.mail-icon{
+            width: 20px;
+            height: 20px;
+            fill:red ;
+            position: fixed;
+            left: 30px;
+            top: 35px;
+        }
+       </style> 
+       <div class="location-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg></div>
+       <style>
+        .location-icon{
+            width: 20px;
+            height: 20px;
+            fill:red ;
+            position: fixed;
+            left: 260px;
+            top: 30px;
+        }
+        </style>
     
       <div class="logo">VILLA</div>
       <nav class="nav">
         <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Properties</a></li>
-        <li><a href="#">Property Details</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="Home">Home</a></li>
+        <li><a href="pro">Properties</a></li>
+        <li><a href="prop der">Property Details</a></li>
+        <li><a href="cont us">Contact Us</a></li>
         
         </ul>
       </nav>
@@ -116,38 +140,87 @@ li{
     padding: 10px;
 }
     </style>
-    <div class="bt2">
-    <button><i class="fa-solid fa-calendar" style="color: #ec0936;"></i>schedule a visit</button>
-    </div>
+    <div class="highlight-text"> <a href="">schedule a visit</a></div>
     
     <style>
-        .bt2{
-            box-sizing: border-box;
-            width: 150px;
-            height: 50px;
-            position: fixed;
+          .highlight-text{
+            
+            border-radius: 20px;
+            width: 13%;      
+            height: 40px;
             background-color: black;
-            border-radius: 30px;
+            font-size: 1.2rem;
+            position: fixed;
+            top: 100px;
             left: 1300px;
-            top: 90px;
-            font-size: xx-large;
-            font-weight: 100;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: center;
             text-align: center;
             
-        }
+          }
+
     </style>
+
+    <style>
+          .highlight-text>a{
+            position: relative;
+            top: 7px;
+            left: 20px;
+            text-decoration: none;
+            color: white;
+            }
+
+    </style>
+    <div class="circle-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg></div>
+       <style>
+        .circle-icon{
+            width: 40px;
+            height: 40px;
+            fill:red ;
+            position: absolute;
+            left: 1296px;
+            top: 100px;
+        }
+        </style>
+        <div class="calender-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M96 32l0 32L48 64C21.5 64 0 85.5 0 112l0 48 448 0 0-48c0-26.5-21.5-48-48-48l-48 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L160 64l0-32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192L0 192 0 464c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l0-272z"/></svg></div>
+       <style>
+        .calender-icon{
+            width: 15px;
+            height: 15px;
+            fill:white ;
+            position: absolute;
+            left: 1308px;
+            top: 110px;
+        }
+        </style>
+    
+    
+    
+        
+    
+
     <br><br>
      <img src="villa image.jpg"image" srcset="" width="100%" >
-     <h3>Toronto, Canada</h3>
+     
+     <div class="white"><span class="black">Toronto</span><span class="red">Canada</span></div>
      <style>
-        h3{
+        .white{
             box-sizing: border-box;
-            width: 150px;
-            background-color: antiquewhite;
+            width: 200px;
+            background-color: white;
+            font-size: 30px;
             position: relative;
             left: 300px;
-            bottom: 500px;
+            bottom: 500px
+            
         }
+        </style>
+        <style>
+            .red{
+                color: orange;
+                padding-left: 8px;
+            }
         </style>
         <br>
 
@@ -168,6 +241,11 @@ li{
                 left: 300px;
                 bottom: 550px;
                 z-index: 1;
+            }
+        </style>
+        <style>
+            .li:hover{
+                color: white;
             }
         </style>
             
